@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DE7CCF7C-3B72-4473-8685-7DAB65F6C4AA}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DailyPuzzle</RootNamespace>
+    <AssemblyName>DailyPuzzle</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Day10\Puzzle.cs" />
+    <Compile Include="Day1\Puzzle.cs" />
+    <Compile Include="Day2\Puzzle.cs" />
+    <Compile Include="Day3\Puzzle.cs" />
+    <Compile Include="Day4\PassportValidator.cs" />
+    <Compile Include="Day4\Puzzle.cs" />
+    <Compile Include="Day5\Puzzle.cs" />
+    <Compile Include="Day6\AnswerCounter.cs" />
+    <Compile Include="Day6\Puzzle.cs" />
+    <Compile Include="Day7\BagReference.cs" />
+    <Compile Include="Day7\LuggageProcessor.cs" />
+    <Compile Include="Day7\Puzzle.cs" />
+    <Compile Include="Day8\CPU.cs" />
+    <Compile Include="Day8\Puzzle.cs" />
+    <Compile Include="Day9\DataDecryption.cs" />
+    <Compile Include="Day9\Puzzle.cs" />
+    <Compile Include="IPuzzle.cs" />
+    <Compile Include="Day3\MapNavigator.cs" />
+    <Compile Include="Day2\PasswordVerifier.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Day1\SumFinder.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Day10\Day10Puzzle.pdf" />
+    <None Include="Day1\Day1Puzzle.pdf" />
+    <None Include="Day2\Day2Puzzle.pdf" />
+    <None Include="Day3\Day3Puzzle.pdf" />
+    <None Include="Day4\Day4Puzzle.pdf" />
+    <None Include="Day5\Day5Puzzle.pdf" />
+    <None Include="Day6\Day6Puzzle.pdf" />
+    <None Include="Day7\Day7Puzzle.pdf" />
+    <None Include="Day8\Day8Puzzle.pdf" />
+    <None Include="Day9\Day9Puzzle.pdf" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
