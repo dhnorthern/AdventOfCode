@@ -17,7 +17,8 @@ namespace DailyPuzzle
             //new Day7.Puzzle(),
             //new Day8.Puzzle(),
             //new Day9.Puzzle(),
-            new Day10.Puzzle(),
+            //new Day10.Puzzle(),
+            new Day17.Puzzle(),
          };
 
          foreach ( var puzzle in puzzles )

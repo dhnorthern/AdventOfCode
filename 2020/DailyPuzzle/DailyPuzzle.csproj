@@ -39,6 +39,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Day10\Puzzle.cs" />
+    <Compile Include="Day17\EnergySimulator.cs" />
+    <Compile Include="Day17\Puzzle.cs" />
     <Compile Include="Day1\Puzzle.cs" />
     <Compile Include="Day2\Puzzle.cs" />
     <Compile Include="Day3\Puzzle.cs" />
@@ -54,6 +56,7 @@
     <Compile Include="Day8\Puzzle.cs" />
     <Compile Include="Day9\DataDecryption.cs" />
     <Compile Include="Day9\Puzzle.cs" />
+    <Compile Include="Extensions.cs" />
     <Compile Include="IPuzzle.cs" />
     <Compile Include="Day3\MapNavigator.cs" />
     <Compile Include="Day2\PasswordVerifier.cs" />
@@ -64,6 +67,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Day10\Day10Puzzle.pdf" />
+    <None Include="Day17\Day17Puzzle.pdf" />
     <None Include="Day1\Day1Puzzle.pdf" />
     <None Include="Day2\Day2Puzzle.pdf" />
     <None Include="Day3\Day3Puzzle.pdf" />
